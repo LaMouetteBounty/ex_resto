@@ -1,0 +1,118 @@
+
+// *************************GENERAL*********************//
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+} 
+
+// **********************FONTFACE***********************//
+font-face {
+    font-family: 'gentium'
+    src url(font/gentiumbold.ttf)
+}
+
+font-face {
+    font-family: 'lato regular'
+    src url(font/latoregular.ttf)
+}
+
+font-face {
+    font-family: 'opensans italic'
+    src url(font/opensans_italic.ttf)
+}
+
+font-face {
+    font-family: 'opensans bold'
+    src url(font/opensans_bold.ttf)
+}
+
+font-face {
+    font-family: 'opensans regular'
+    src url(font/opensans_regular.ttf)
+}
+
+font-face {
+    font-family: 'yesevaone'
+    src url(font/yesevaone.otf)
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    height: 750px;
+    background-image: url(img/background_header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+        .marginhead {
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+            .headernav {
+                nav {
+                font-family: 'gentium';
+                font-size: 21px;
+                color: white;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                padding-top: 5%;
+                padding-left: 10%;
+                
+                }
+                #logo {
+                float: left;
+                }
+                #reseau {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                color: white;
+                }
+            }
+            .txtandimg1 {
+                margin: 12% 20% 0% 20%;
+                padding: 0% 0% 0% 0%;
+                h1 {
+                font-family: 'yesevaone';
+                font-size: 90px;
+                text-align: center;
+                color: white;
+                }
+                #containerhead {
+                    margin-right: 50%;
+                    margin-left: 40%;
+                    margin-top: 4%;
+                    display: flex;
+                    height: 4.5%;
+                    width: 23%;
+                    flex-direction: row;
+                    justify-content: space-between; 
+                }
+            }
+                #boutonheader {
+                    a{
+                    font-family: 'lato regular';
+                    font-size: 18px;
+                    color: white;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    }
+                    #boutonbook {
+                        background-color: rgba(0, 0, 0, 0.5 );
+                    }
+                    #boutonmenu {
+                        background-color: rgba(255, 255, 255, 0.5);
+                    }
+                }
+           
+}

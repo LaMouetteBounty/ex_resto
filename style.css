@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+font-face {
+  font-family: "gentium" src url(font/gentiumbold.ttf);
+}
+
+font-face {
+  font-family: "lato regular" src url(font/latoregular.ttf);
+}
+
+font-face {
+  font-family: "opensans italic" src url(font/opensans_italic.ttf);
+}
+
+font-face {
+  font-family: "opensans bold" src url(font/opensans_bold.ttf);
+}
+
+font-face {
+  font-family: "opensans regular" src url(font/opensans_regular.ttf);
+}
+
+font-face {
+  font-family: "yesevaone" src url(font/yesevaone.otf);
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  height: 750px;
+  background-image: url(img/background_header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header .marginhead {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+header .headernav nav {
+  font-family: 'gentium';
+  font-size: 21px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+header .headernav #logo {
+  float: left;
+}
+
+header .headernav #reseau {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: white;
+}
+
+header .txtandimg1 {
+  margin: 12% 20% 0% 20%;
+  padding: 0% 0% 0% 0%;
+}
+
+header .txtandimg1 h1 {
+  font-family: 'yesevaone';
+  font-size: 90px;
+  text-align: center;
+  color: white;
+}
+
+header .txtandimg1 #containerhead {
+  margin-right: 50%;
+  margin-left: 40%;
+  margin-top: 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 4.5%;
+  width: 23%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header #boutonheader a {
+  font-family: 'lato regular';
+  font-size: 18px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header #boutonheader #boutonbook {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header #boutonheader #boutonmenu {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+/*# sourceMappingURL=style.css.map */
