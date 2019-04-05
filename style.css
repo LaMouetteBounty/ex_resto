@@ -13,27 +13,33 @@ li {
 }
 
 font-face {
-  font-family: "gentium" src url(font/gentiumbold.ttf);
+  font-family: "gentium";
+  src: url(font/gentiumbold.ttf);
 }
 
 font-face {
-  font-family: "lato regular" src url(font/latoregular.ttf);
+  font-family: "lato regular";
+  src: url(font/latoregular.ttf);
 }
 
 font-face {
-  font-family: "opensans italic" src url(font/opensans_italic.ttf);
+  font-family: "opensans italic";
+  src: url(font/opensans_italic.ttf);
 }
 
 font-face {
-  font-family: "opensans bold" src url(font/opensans_bold.ttf);
+  font-family: "opensans bold";
+  src: url(font/opensans_bold.ttf);
 }
 
 font-face {
-  font-family: "opensans regular" src url(font/opensans_regular.ttf);
+  font-family: "opensans regular";
+  src: url(font/opensans_regular.ttf);
 }
 
 font-face {
-  font-family: "yesevaone" src url(font/yesevaone.otf);
+  font-family: "yesevaone";
+  src: url(font/yesevaone.ttf);
 }
 
 header {
@@ -208,25 +214,24 @@ header #boutonheader #boutonmenu {
   margin: 0;
 }
 
-#section2 {
+.section2 {
   background-image: url(img/background_s2.jpg);
   margin: 0;
-  padding: 0;
+  padding: 4% 3% 0% 50%;
   height: 710px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#section2 #margins2 {
+.section2 #margins2 {
   margin-left: 10%;
   margin-right: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 4%;
 }
 
-#section2 div {
+.section2 #margins2 div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -234,17 +239,21 @@ header #boutonheader #boutonmenu {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: rgba(0, 0, 0, 0.5);
+  height: 500px;
+  padding: 0% 10% 0% 10%;
 }
 
-#section2 #containers2 {
-  color: white;
+.section2 #margins2 div svg {
+  width: 31%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#section2 h2 {
+.section2 #margins2 div h2 {
   font-family: "yesevaone";
   font-size: 36px;
   color: white;
@@ -252,9 +261,78 @@ header #boutonheader #boutonmenu {
   margin-bottom: 4%;
 }
 
-#section2 p {
+.section2 #margins2 div p {
   font-family: "lato regular";
   font-size: 16px;
+  color: white;
+  text-align: center;
+}
+
+.section2 #margins2 div img {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 14%;
+}
+
+.section3 {
+  background-image: url(img/background_s3.jpg);
+  margin: 0;
+  padding: 0;
+  height: 750px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 8%;
+}
+
+.section3 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 500px;
+  padding: 0% 10% 0% 10%;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section3 div h2 {
+  font-family: "yesevaone";
+  font-size: 36px;
+  color: white;
+  text-align: center;
+}
+
+.section3 div svg {
+  width: 37%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section3 div p {
+  font-family: "gentium";
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  margin-bottom: 6%;
+}
+
+.section3 div span {
+  font-family: "lato regular";
+  font-size: 18px;
   color: white;
   text-align: center;
 }

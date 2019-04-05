@@ -15,27 +15,33 @@ li {
 
 // **********************FONTFACE***********************//
 font-face {
-  font-family: "gentium" src url(font/gentiumbold.ttf);
+  font-family: "gentium";
+  src: url(font/gentiumbold.ttf);
 }
 
 font-face {
-  font-family: "lato regular" src url(font/latoregular.ttf);
+  font-family: "lato regular";
+  src: url(font/latoregular.ttf);
 }
 
 font-face {
-  font-family: "opensans italic" src url(font/opensans_italic.ttf);
+  font-family: "opensans italic";
+  src: url(font/opensans_italic.ttf);
 }
 
 font-face {
-  font-family: "opensans bold" src url(font/opensans_bold.ttf);
+  font-family: "opensans bold";
+  src: url(font/opensans_bold.ttf);
 }
 
 font-face {
-  font-family: "opensans regular" src url(font/opensans_regular.ttf);
+  font-family: "opensans regular";
+  src: url(font/opensans_regular.ttf);
 }
 
 font-face {
-  font-family: "yesevaone" src url(font/yesevaone.otf);
+  font-family: "yesevaone";
+  src: url(font/yesevaone.ttf);
 }
 
 header {
@@ -162,41 +168,99 @@ header {
     margin: 0;
   }
 }
-// ****************************SECTION2******************************************
-#section2 {
+// ****************************SECTION2******************************************//
+.section2 {
   background-image: url(img/background_s2.jpg);
   margin: 0;
-  padding: 0;
+  padding: 4% 3% 0% 50%;
   height: 710px;
   background-size: cover;
   background-repeat: no-repeat;
+
   #margins2 {
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 500px;
+      padding: 0% 10% 0% 10%;
+      svg {
+        width: 31%;
+        margin-left: auto;
+        margin-right: auto;
+      }
 
-    padding-top: 4%;
+      h2 {
+        font-family: "yesevaone";
+        font-size: 36px;
+        color: white;
+        text-align: center;
+        margin-bottom: 4%;
+      }
+      p {
+        font-family: "lato regular";
+        font-size: 16px;
+        color: white;
+        text-align: center;
+      }
+      img {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 14%;
+      }
+    }
   }
+}
+
+// **************************************SECTION3*********************************//
+
+.section3 {
+  background-image: url(img/background_s3.jpg);
+  margin: 0;
+  padding: 0;
+  height: 750px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding-top: 8%;
   div {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
-  }
-  #containers2 {
-    color: white;
-  }
-  h2 {
-    font-family: "yesevaone";
-    font-size: 36px;
-    color: white;
-    text-align: center;
-    margin-bottom: 4%;
-  }
-  p {
-    font-family: "lato regular";
-    font-size: 16px;
-    color: white;
-    text-align: center;
+    height: 500px;
+    padding: 0% 10% 0% 10%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    h2 {
+      font-family: "yesevaone";
+      font-size: 36px;
+      color: white;
+      text-align: center;
+    }
+    svg {
+      width: 37%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    p{
+      font-family: "gentium";
+      font-size: 25px;
+      color: white;
+      text-align: center;
+      margin-bottom: 6%;
+    }
+    span {
+      font-family: "lato regular";
+      font-size: 18px;
+      color: white;
+      text-align: center;
+    }
   }
 }
