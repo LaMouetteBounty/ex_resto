@@ -12,34 +12,9 @@ li {
   list-style-type: none;
 }
 
-font-face {
-  font-family: "gentium";
-  src: url(font/gentiumbold.ttf);
-}
-
-font-face {
-  font-family: "lato regular";
-  src: url(font/latoregular.ttf);
-}
-
-font-face {
-  font-family: "opensans italic";
-  src: url(font/opensans_italic.ttf);
-}
-
-font-face {
-  font-family: "opensans bold";
-  src: url(font/opensans_bold.ttf);
-}
-
-font-face {
-  font-family: "opensans regular";
-  src: url(font/opensans_regular.ttf);
-}
-
-font-face {
-  font-family: "yesevaone";
-  src: url(font/yesevaone.ttf);
+@font-face {
+  font-family: "Yeseva One";
+  src: "font/yeseva_one.ttf";
 }
 
 header {
@@ -57,7 +32,8 @@ header .marginhead {
 }
 
 header .headernav nav {
-  font-family: "gentium";
+  font-family: "Gentium Book Basic";
+  font-weight: 700;
   font-size: 21px;
   color: white;
   display: -webkit-box;
@@ -97,7 +73,7 @@ header .txtandimg1 {
 }
 
 header .txtandimg1 h1 {
-  font-family: "yesevaone";
+  font-family: "Yeseva One";
   font-size: 90px;
   text-align: center;
   color: white;
@@ -129,7 +105,7 @@ header #boutonheader {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 3%;
-  font-family: "lato regular";
+  font-family: "Lato";
   font-size: 18px;
   color: white;
 }
@@ -184,7 +160,7 @@ header #boutonheader #boutonmenu {
 }
 
 .section1 .textleft h2 {
-  font-family: "yesevaone";
+  font-family: "Yeseva One";
   font-size: 36px;
   color: #cc9900;
   text-align: center;
@@ -192,7 +168,7 @@ header #boutonheader #boutonmenu {
 }
 
 .section1 .textleft p {
-  font-family: "lato regular";
+  font-family: "Lato";
   font-size: 16px;
   color: black;
   text-align: center;
@@ -254,7 +230,7 @@ header #boutonheader #boutonmenu {
 }
 
 .section2 #margins2 div h2 {
-  font-family: "yesevaone";
+  font-family: "Yeseva One";
   font-size: 36px;
   color: white;
   text-align: center;
@@ -262,7 +238,7 @@ header #boutonheader #boutonmenu {
 }
 
 .section2 #margins2 div p {
-  font-family: "lato regular";
+  font-family: "Lato";
   font-size: 16px;
   color: white;
   text-align: center;
@@ -310,7 +286,7 @@ header #boutonheader #boutonmenu {
 }
 
 .section3 div h2 {
-  font-family: "yesevaone";
+  font-family: "Yeseva One";
   font-size: 36px;
   color: white;
   text-align: center;
@@ -323,7 +299,8 @@ header #boutonheader #boutonmenu {
 }
 
 .section3 div p {
-  font-family: "gentium";
+  font-family: "Gentium Book Basic";
+  font-weight: 700;
   font-size: 25px;
   color: white;
   text-align: center;
@@ -331,9 +308,159 @@ header #boutonheader #boutonmenu {
 }
 
 .section3 div span {
-  font-family: "lato regular";
+  font-family: "Lato";
   font-size: 18px;
   color: white;
   text-align: center;
+}
+
+.section4 {
+  background-image: url(img/background_s1.jpg);
+  margin: 0;
+  padding: 0;
+  height: 710px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section4 #bloc4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 500px;
+  padding: 5% 10% 0% 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section4 #bloc4 #blocdetext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0% 17% 0% 17%;
+}
+
+.section4 #bloc4 h2 {
+  font-family: "Yeseva One";
+  font-size: 36px;
+  color: #cc9900;
+  text-align: center;
+  padding: 0% 0% 1% 0%;
+}
+
+.section4 #bloc4 #containers4 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 37%;
+}
+
+.section4 #bloc4 p {
+  font-family: "lato regular";
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 9%;
+}
+
+.section4 #bloc4 label {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 14px;
+  color: #cc9900;
+}
+
+.section4 #bloc4 #date:after {
+  display: none;
+}
+
+.section4 #bloc4 #images4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 5%;
+}
+
+.section4 #bloc4 #imgres {
+  margin-right: 5%;
+}
+
+.section4 #bloc4 #booknow {
+  color: white;
+  font-family: "Open Sans";
+  font-size: 16px;
+  background-color: #cc9900;
+  margin: 0% 23% 0% 23%;
+  padding: 1.5% 0% 1.5% 0%;
+  text-align: center;
+}
+
+footer {
+  background-color: #191919;
+  height: 320px;
+  padding: 0% 10% 0% 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer h3 {
+  font-family: "Yeseva One";
+  font-size: 21px;
+  color: white;
+  text-align: center;
+}
+
+footer svg {
+  width: 42%;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+footer p {
+  font-family: "Open Sans";
+  font-size: "16px";
+  color: white;
+  text-align: center;
+}
+
+footer span {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: "16px";
+  color: white;
+}
+
+footer #about {
+  width: 30%;
+}
+
+footer #opening {
+  width: 25%;
+}
+
+footer #location {
+  width: 25%;
 }
 /*# sourceMappingURL=style.css.map */
