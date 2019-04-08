@@ -41,6 +41,7 @@ header {
       justify-content: space-around;
       padding-top: 5%;
       padding-left: 10%;
+      padding-right: 11%;
     }
     #logo {
       float: left;
@@ -49,12 +50,31 @@ header {
     #reseau {
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: flex-end;
       color: white;
+      margin-right: 2%;
     }
+     .fa-twitter {
+       color: #cc9900;
+       margin: 0% 50% 0% 0%;
+       padding-left: 70%;
+
+     }
+     .fa-youtube {
+      color: #cc9900;
+      padding-left: 70%;
+      margin: 0% 50% 0% 0%;
+    }
+    .fa-facebook-f {
+      color: #cc9900;
+      padding-left: 90%;
+    }
+
+    }
+    
   }
   .txtandimg1 {
-    margin: 12% 20% 0% 20%;
+    margin: 12% 13% 0% 13%;
     padding: 0% 0% 0% 0%;
     h1 {
       font-family: "Yeseva One";
@@ -95,7 +115,6 @@ header {
       border-color: white;
     }
   }
-}
 // **************************SECTION1***************************************//
 .section1 {
   background-image: url(img/background_s1.jpg);
@@ -138,6 +157,7 @@ header {
       margin-right: auto;
       margin-left: auto;
       margin-bottom: 11%;
+      margin-top: 11%;
     }
   }
   #imgs1 {
@@ -239,6 +259,12 @@ header {
       color: white;
       text-align: center;
     }
+    .fa-quote-left{
+color: #a0a6a5;
+width: 12%;
+padding: 0% 1% 0% 0%;
+vertical-align: 47%;
+    }
   }
 }
 
@@ -300,6 +326,53 @@ header {
     #imgres {
       margin-right: 5%;
     }
+    #formulaire {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 10%;
+      
+    }
+    input{
+      height: 100%;
+      font-size: 90%;
+      padding: 3% 3% 3% 4%;
+      font-family: 'Open sans';
+      font-weight: 400i;
+    }
+    .form_part1{
+      display: flex;
+      flex-direction: row;
+      padding: 2% 0% 11% 0%;
+    }
+    .form_part2{
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 10%;
+    }
+    #name{
+      display: flex;
+      flex-direction: column;
+      padding: 0% 10% 0% 0%;
+      width: 40%;
+    }
+    #email{
+      display: flex;
+      flex-direction: column;
+      padding: 0% 10% 0% 0%;
+      width: 40%;
+    }
+    #date {
+      display: flex;
+      flex-direction: column;
+      padding: 0% 10% 0% 0%;
+      width: 40%;
+    }
+    #number{
+      display: flex;
+      flex-direction: column;
+      padding: 0% 10% 0% 0%;
+      width: 40%;
+    }
     #booknow {
       color: white;
       font-family: "Open Sans";
@@ -315,7 +388,7 @@ header {
 footer {
   background-color: #191919;
   height: 320px;
-  padding: 0% 10% 0% 10%;
+  padding: 3% 10% 0% 10%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -351,8 +424,43 @@ footer {
   }
   #opening{
     width: 25%;
+
+.fa-cc-mastercard{
+  color: white;
+}
+.fa-cc-paypal{
+  color: white;
+}
+.fa-cc-visa{
+  color: white;
+}
+.fa-cc-discover{
+  color: white;
+}
+div{
+  display: flex;
+  justify-content: space-around;
+  padding: 11% 30% 0% 30%;
+}
   }
   #location{
     width: 25%;
-  }
+    div{
+      display: flex;
+      justify-content: space-around;
+      padding: 11% 30% 0% 30%;
+    }
+    .fa-facebook-f{
+      color: white;
+    }
+.fa-youtube{
+  color: white;
 }
+.fa-twitter{
+  color: white;
+}
+.fa-poll{
+  color: white;
+}
+  }
+

@@ -47,6 +47,7 @@ header .headernav nav {
       justify-content: space-around;
   padding-top: 5%;
   padding-left: 10%;
+  padding-right: 11%;
 }
 
 header .headernav #logo {
@@ -62,24 +63,43 @@ header .headernav #reseau {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   color: white;
+  margin-right: 2%;
 }
 
-header .txtandimg1 {
-  margin: 12% 20% 0% 20%;
+header .headernav .fa-twitter {
+  color: #cc9900;
+  margin: 0% 50% 0% 0%;
+  padding-left: 70%;
+}
+
+header .headernav .fa-youtube {
+  color: #cc9900;
+  padding-left: 70%;
+  margin: 0% 50% 0% 0%;
+}
+
+header .headernav .fa-facebook-f {
+  color: #cc9900;
+  padding-left: 90%;
+}
+
+.txtandimg1 {
+  margin: 12% 13% 0% 13%;
   padding: 0% 0% 0% 0%;
 }
 
-header .txtandimg1 h1 {
+.txtandimg1 h1 {
   font-family: "Yeseva One";
   font-size: 90px;
   text-align: center;
   color: white;
 }
 
-header .txtandimg1 #containerhead {
+.txtandimg1 #containerhead {
   margin-right: auto;
   margin-left: auto;
   margin-top: 4%;
@@ -97,7 +117,7 @@ header .txtandimg1 #containerhead {
           justify-content: space-between;
 }
 
-header #boutonheader {
+#boutonheader {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -110,7 +130,7 @@ header #boutonheader {
   color: white;
 }
 
-header #boutonheader #boutonbook {
+#boutonheader #boutonbook {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1% 2% 1% 2%;
   border: solid 1px;
@@ -118,7 +138,7 @@ header #boutonheader #boutonbook {
   margin-right: 2%;
 }
 
-header #boutonheader #boutonmenu {
+#boutonheader #boutonmenu {
   background-color: rgba(255, 255, 255, 0.3);
   padding: 1% 2% 1% 2%;
   border: solid 1px;
@@ -184,6 +204,7 @@ header #boutonheader #boutonmenu {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 11%;
+  margin-top: 11%;
 }
 
 .section1 #imgs1 {
@@ -314,6 +335,13 @@ header #boutonheader #boutonmenu {
   text-align: center;
 }
 
+.section3 div .fa-quote-left {
+  color: #a0a6a5;
+  width: 12%;
+  padding: 0% 1% 0% 0%;
+  vertical-align: 47%;
+}
+
 .section4 {
   background-image: url(img/background_s1.jpg);
   margin: 0;
@@ -400,6 +428,95 @@ header #boutonheader #boutonmenu {
   margin-right: 5%;
 }
 
+.section4 #bloc4 #formulaire {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 10%;
+}
+
+.section4 #bloc4 input {
+  height: 100%;
+  font-size: 90%;
+  padding: 3% 3% 3% 4%;
+  font-family: 'Open sans';
+  font-weight: 400i;
+}
+
+.section4 #bloc4 .form_part1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 2% 0% 11% 0%;
+}
+
+.section4 #bloc4 .form_part2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-bottom: 10%;
+}
+
+.section4 #bloc4 #name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0% 10% 0% 0%;
+  width: 40%;
+}
+
+.section4 #bloc4 #email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0% 10% 0% 0%;
+  width: 40%;
+}
+
+.section4 #bloc4 #date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0% 10% 0% 0%;
+  width: 40%;
+}
+
+.section4 #bloc4 #number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0% 10% 0% 0%;
+  width: 40%;
+}
+
 .section4 #bloc4 #booknow {
   color: white;
   font-family: "Open Sans";
@@ -413,7 +530,7 @@ header #boutonheader #boutonmenu {
 footer {
   background-color: #191919;
   height: 320px;
-  padding: 0% 10% 0% 10%;
+  padding: 3% 10% 0% 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -434,33 +551,89 @@ footer h3 {
 
 footer svg {
   width: 42%;
-  padding-left: auto;
-  padding-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-footer p {
+p {
   font-family: "Open Sans";
   font-size: "16px";
   color: white;
   text-align: center;
 }
 
-footer span {
+span {
   font-family: "Open Sans";
   font-weight: 700;
   font-size: "16px";
   color: white;
 }
 
-footer #about {
+#about {
   width: 30%;
 }
 
-footer #opening {
+#opening {
   width: 25%;
 }
 
-footer #location {
+#opening .fa-cc-mastercard {
+  color: white;
+}
+
+#opening .fa-cc-paypal {
+  color: white;
+}
+
+#opening .fa-cc-visa {
+  color: white;
+}
+
+#opening .fa-cc-discover {
+  color: white;
+}
+
+#opening div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 11% 30% 0% 30%;
+}
+
+#location {
   width: 25%;
+}
+
+#location div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 11% 30% 0% 30%;
+}
+
+#location .fa-facebook-f {
+  color: white;
+}
+
+#location .fa-youtube {
+  color: white;
+}
+
+#location .fa-twitter {
+  color: white;
+}
+
+#location .fa-poll {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
