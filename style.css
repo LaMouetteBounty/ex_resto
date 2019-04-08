@@ -50,6 +50,10 @@ header .headernav nav {
   padding-right: 11%;
 }
 
+header .headernav .burger {
+  display: none;
+}
+
 header .headernav #logo {
   float: left;
   margin-top: 2%;
@@ -639,7 +643,7 @@ span {
 
 @media screen and (max-width: 1200px) {
   header {
-    height: 600px;
+    height: 500px;
   }
   header .headernav nav {
     font-size: 17px;
@@ -658,10 +662,10 @@ span {
     margin-right: 1.5%;
   }
   .section1 {
-    height: 680px;
+    height: 550px;
   }
   .section1 .textleft {
-    padding: 0% 0% 0% 18%;
+    padding: 0% 15% 0% 15%;
   }
   .section1 .textleft h2 {
     font-size: 26px;
@@ -673,10 +677,8 @@ span {
     width: 272px;
     height: 222px;
   }
-  .section1 #imgs1 {
-    width: 304px;
-    height: 308px;
-    margin-right: 20%;
+  .section1 .imgs1 {
+    display: none;
   }
   .section2 {
     height: 540px;
@@ -697,6 +699,172 @@ span {
   .section2 #margins2 div img {
     width: 377px;
     height: 103px;
+  }
+  .section3 {
+    height: 600px;
+  }
+  .section3 div {
+    padding: 0% 5% 0% 5%;
+    margin: 0% 0% 0% 0%;
+  }
+  .section3 div h2 {
+    font-size: 26px;
+  }
+  .section3 div p {
+    font-size: 14px;
+    line-height: 200%;
+  }
+  .section3 div span {
+    font-size: 10px;
+  }
+  .section3 div .fa-quote-left {
+    width: 5%;
+    padding-right: 5%;
+  }
+  .section4 {
+    height: 600px;
+  }
+  .section4 #bloc4 #images4 {
+    width: 30%;
+  }
+  .section4 #bloc4 #images4 img {
+    width: 230px;
+    height: 467px;
+  }
+  .section4 #bloc4 #blocdetext {
+    padding: 0% 12% 0% 19%;
+  }
+  .section4 #bloc4 h2 {
+    font-size: 26px;
+    padding: 0% 11% 0% 0%;
+  }
+  .section4 #bloc4 p {
+    font-size: 14px;
+    padding: 0% 11% 0% 0%;
+  }
+  footer {
+    height: 200px;
+  }
+  footer h3 {
+    font-size: 14px;
+  }
+  footer svg {
+    width: 65%;
+  }
+  p {
+    font-size: 10px;
+  }
+  #opening div {
+    padding: 12% 25% 0% 25%;
+  }
+  #opening .fa-cc-mastercard {
+    font-size: 15px;
+  }
+  #opening .fa-cc-paypal {
+    font-size: 15px;
+  }
+  #opening .fa-cc-visa {
+    font-size: 15px;
+  }
+  #opening .fa-cc-discover {
+    font-size: 15px;
+  }
+  #location div {
+    padding: 12% 30% 0% 30%;
+  }
+  #location .fa-facebook-f {
+    font-size: 12px;
+  }
+  #location .fa-youtube {
+    font-size: 12px;
+  }
+  #location .fa-twitter {
+    font-size: 12px;
+  }
+  #location .fa-poll {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    height: 450px;
+  }
+  header .headernav nav {
+    display: none;
+  }
+  header .headernav .burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding: 5% 0% 0% 0%;
+  }
+  header .headernav .burger img:hover {
+    background-color: black;
+  }
+  header .headernav #reseau {
+    display: none;
+  }
+  header .txtandimg1 h1 {
+    font-size: 40px;
+  }
+  .section1 {
+    height: 450px;
+    padding: 6% 22% 10% 22%;
+  }
+  .section1 .textleft {
+    padding: 0;
+  }
+  .section1 .textleft #cook {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 252px;
+    height: 202px;
+  }
+  .section2 {
+    height: 450px;
+  }
+  .section2 #margins2 div img {
+    width: 347px;
+  }
+  .section3 {
+    padding-top: 2%;
+    height: 520px;
+  }
+  .section3 div {
+    padding: 0% 9% 0% 9%;
+    margin: 0% 0% 0% 0%;
+  }
+  .section4 {
+    height: 550px;
+  }
+  .section4 #bloc4 {
+    padding: 3% 0% 0% 0%;
+  }
+  .section4 #bloc4 h2 {
+    padding: 0% 11% 2% 0%;
+  }
+  .section4 #bloc4 p {
+    margin: 0;
+  }
+  .section4 #bloc4 #images4 {
+    display: none;
+  }
+  .section4 #bloc4 #containers4 {
+    padding: 0% 10% 2% 0%;
+  }
+  .section4 #bloc4 #booknow {
+    margin: 0% 35% 0% 31%;
+  }
+  .section4 #bloc4 .form_part2 {
+    padding-bottom: 5%;
+  }
+  .section4 #bloc4 #blocdetext {
+    padding: 3% 8% 0% 16%;
   }
 }
 /*# sourceMappingURL=style.css.map */
