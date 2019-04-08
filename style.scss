@@ -633,94 +633,257 @@ span {
 
 // **********************************************992px*********************************************
 @media screen and (max-width: 992px) {
-  header{
+  // ******************************************HEADER**************************************************
+  header {
     height: 450px;
     .headernav {
-    nav{
-      display: none;
-    }
-    .burger {
-      display: flex;
-      justify-content: flex-end;
-      padding: 5% 0% 0% 0%;
-      img:hover{
-        background-color: black;
+      nav {
+        display: none;
+      }
+      .burger {
+        display: flex;
+        justify-content: flex-end;
+        padding: 5% 0% 0% 0%;
+        img:hover {
+          background-color: black;
+        }
+      }
+      #reseau {
+        display: none;
       }
     }
-    #reseau{
-      display: none;
+    .txtandimg1 {
+      h1 {
+        font-size: 40px;
+      }
     }
   }
-  .txtandimg1{
-    h1{
-      font-size: 40px;
+  // ******************************************SECTION1******************************************
+  .section1 {
+    height: 450px;
+    padding: 6% 22% 10% 22%;
+    .textleft {
+      padding: 0;
+      #cook {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        width: 252px;
+        height: 202px;
+      }
+    }
+  }
+  // ********************************************SECTION2************************************
+  .section2 {
+    height: 450px;
+    #margins2 {
+      div {
+        img {
+          width: 347px;
+          // height: 63px;
+        }
+      }
+    }
+  }
+  // *******************************************SECTION3*****************************************
+  .section3 {
+    padding-top: 2%;
+    height: 520px;
+    div {
+      padding: 0% 9% 0% 9%;
+      margin: 0% 0% 0% 0%;
+    }
+  }
+  // *******************************************SECTION4***************************************
+  .section4 {
+    height: 550px;
+    #bloc4 {
+      padding: 3% 0% 0% 0%;
+      h2 {
+        padding: 0% 11% 2% 0%;
+      }
+      p {
+        margin: 0;
+      }
+      #images4 {
+        display: none;
+      }
+      #containers4 {
+        padding: 0% 10% 2% 0%;
+      }
+      #booknow {
+        margin: 0% 35% 0% 31%;
+      }
+      .form_part2 {
+        padding-bottom: 5%;
+      }
+      #blocdetext {
+        padding: 3% 8% 0% 16%;
+      }
     }
   }
 }
-// ******************************************SECTION1******************************************
-.section1{
-  height: 450px;
-  padding: 6% 22% 10% 22%;
-  .textleft{
-    padding: 0;
-    #cook {
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 5%;
-      width: 252px;
-      height: 202px;
+// ***********************************768px***************************************
+@media screen and (max-width: 768px) {
+  // ***********************************HEADER**************************************
+  header {
+    #boutonheader {
+      font-size: 13px;
+    }
+    #containerhead {
+      width: 30%;
+    }
+    .txtandimg1 {
+      h1 {
+        font-size: 30px;
+        margin-top: 30%;
+      }
     }
   }
-}
-// ********************************************SECTION2************************************
-.section2{
-  height: 450px;
-  #margins2 {
-    div{
-    img{
-      width: 347px;
-      // height: 63px;
+  // *******************************SECTION1************************************
+  // *******************************SECTION2************************************
+  .section2 {
+    height: 525px;
+    padding: 5% 10% 5% 10%;
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    #margins2 {
+      margin: 0% 0% 0% 0%;
+      padding: 5% 0% 0% 0%;
+      div {
+        padding: 0;
+        margin: 0% 10% 0% 10%;
+        img {
+          width: 309px;
+          height: 91px;
+          margin-top: 0;
+          padding-top: 12%;
+        }
+        p {
+          padding: 0% 15% 0% 15%;
+        }
+      }
     }
   }
-}
-}
-// *******************************************SECTION3*****************************************
-.section3{ 
-  padding-top: 2%;
-  height: 520px;
-  div{
-    padding: 0% 9% 0% 9%;
-    margin: 0% 0% 0% 0%;
-  }
-}
-// *******************************************SECTION4***************************************
-.section4 {
-  height: 550px;
-  #bloc4{
-    padding: 3% 0% 0% 0%;
-    h2{
-      padding: 0% 11% 2% 0%;
-    }
-    p{
-      margin: 0;
-      
-    }
-    #images4{
-      display: none;
-    }
-  #containers4{
-    padding: 0% 10% 2% 0%;
-  }
-  #booknow {
-    margin: 0% 35% 0% 31%;
-  }
-  .form_part2{
-    padding-bottom: 5%;
-  }
-  #blocdetext{
-    padding: 3% 8% 0% 16%;
-  }
-}
-}
+  // ********************************SECTION3************************************
+  .section3 {
+    padding-top: 2%;
+    height: 480px;
+    div {
+      margin: 4% 0% 0% 0%;
+      width: 46%;
+      height: 400px;
 
+      p {
+        line-height: 188%;
+      }
+    }
+  }
+  // *************************************SECTION4**********************************
+  .section4 {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    #bloc4 {
+      padding: 0% 0% 0% 0%;
+      h2 {
+        padding: 0% 10% 0% 0%;
+      }
+      p {
+        margin: 0;
+      }
+      #containers4 {
+        padding: 3% 10% 3% 0%;
+      }
+      #booknow {
+        margin: 0% 31% 0% 21%;
+      }
+      .form_part1 {
+        padding-bottom: 5%;
+      }
+      .form_part2 {
+        padding-bottom: 5%;
+      }
+      #blocdetext {
+        padding: 0% 0% 0% 10%;
+      }
+    }
+  }
+  // ***************************************FOOTER************************************
+  footer{
+    height: 180px;
+    padding: 3% 4% 0% 4%;
+  }
+  #opening {
+    div {
+      padding: 10% 9% 0% 9%;
+    }
+    #location {
+      div {
+        padding: 12% 21% 0% 21%;
+      }
+    }
+  }
+}
+// ********************************************600px************************************
+@media screen and (max-width: 600px) {
+// *******************************************HEADER*************************************
+header{
+  height: 450px;
+  .marginhead{
+    margin: 0% 3% 0% 3%;
+  }
+}
+.txtandimg1{
+  h1 {
+    margin: 12% 0% 10% 0%;
+  padding: 0% 0% 0% 0%;
+  }
+#containerhead{
+display: none;
+}
+}
+#boutonheader{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0% 0% 0% 0%;
+    padding: 0% 30% 0% 30%;
+    #boutonbook{
+      font-size: 15px;
+      text-align: center;
+      padding: 10% 10% 10% 10%;
+      margin-bottom: 10%;
+    }
+    #boutonmenu{
+      font-size: 15px;
+      text-align: center;
+      padding: 10% 10% 10% 10%;
+    }
+}
+// ****************************SECTION1**********************
+.section1{
+  height: 420px;
+  padding: 6% 0% 10% 0%;
+  .textleft{
+  p{
+    font-size: 15.6px;
+  }
+}
+}
+// *****************************SECTION2******************************
+.section2{
+  padding: 0% 0% 4% 0%;
+}
+}
+// *****************************SECTION3*****************************
+.section3{
+  padding: 0% 0% 0% 0%;
+  div{
+    margin: 5% 0% 0% 0%;
+    padding: 0% 5% 0% 5%;
+    width: 70%;
+  }
 }
