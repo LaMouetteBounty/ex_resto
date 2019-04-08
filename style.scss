@@ -54,13 +54,12 @@ header {
       color: white;
       margin-right: 2%;
     }
-     .fa-twitter {
-       color: #cc9900;
-       margin: 0% 50% 0% 0%;
-       padding-left: 70%;
-
-     }
-     .fa-youtube {
+    .fa-twitter {
+      color: #cc9900;
+      margin: 0% 50% 0% 0%;
+      padding-left: 70%;
+    }
+    .fa-youtube {
       color: #cc9900;
       padding-left: 70%;
       margin: 0% 50% 0% 0%;
@@ -69,52 +68,50 @@ header {
       color: #cc9900;
       padding-left: 90%;
     }
-
-    }
-    
   }
-  .txtandimg1 {
-    margin: 12% 13% 0% 13%;
-    padding: 0% 0% 0% 0%;
-    h1 {
-      font-family: "Yeseva One";
-      font-size: 90px;
-      text-align: center;
-      color: white;
-    }
-    #containerhead {
-      margin-right: auto;
-      margin-left: auto;
-      margin-top: 4%;
-      display: flex;
-      height: 4.5%;
-      width: 23%;
-      flex-direction: row;
-      justify-content: space-between;
-    }
-  }
-  #boutonheader {
-    display: flex;
-    justify-content: center;
-    margin-top: 3%;
-    font-family: "Lato";
-    font-size: 18px;
+}
+.txtandimg1 {
+  margin: 12% 13% 0% 13%;
+  padding: 0% 0% 0% 0%;
+  h1 {
+    font-family: "Yeseva One";
+    font-size: 90px;
+    text-align: center;
     color: white;
-
-    #boutonbook {
-      background-color: rgba(0, 0, 0, 0.5);
-      padding: 1% 2% 1% 2%;
-      border: solid 1px;
-      border-color: black;
-      margin-right: 2%;
-    }
-    #boutonmenu {
-      background-color: rgba(255, 255, 255, 0.3);
-      padding: 1% 2% 1% 2%;
-      border: solid 1px;
-      border-color: white;
-    }
   }
+  #containerhead {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4%;
+    display: flex;
+    height: 4.5%;
+    width: 23%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+#boutonheader {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  font-family: "Lato";
+  font-size: 18px;
+  color: white;
+
+  #boutonbook {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1% 2% 1% 2%;
+    border: solid 1px;
+    border-color: black;
+    margin-right: 2%;
+  }
+  #boutonmenu {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 1% 2% 1% 2%;
+    border: solid 1px;
+    border-color: white;
+  }
+}
 // **************************SECTION1***************************************//
 .section1 {
   background-image: url(img/background_s1.jpg);
@@ -259,11 +256,11 @@ header {
       color: white;
       text-align: center;
     }
-    .fa-quote-left{
-color: #a0a6a5;
-width: 12%;
-padding: 0% 1% 0% 0%;
-vertical-align: 47%;
+    .fa-quote-left {
+      color: #a0a6a5;
+      width: 12%;
+      padding: 0% 1% 0% 0%;
+      vertical-align: 47%;
     }
   }
 }
@@ -330,32 +327,31 @@ vertical-align: 47%;
       display: flex;
       flex-direction: column;
       padding-bottom: 10%;
-      
     }
-    input{
+    input {
       height: 100%;
       font-size: 90%;
       padding: 3% 3% 3% 4%;
-      font-family: 'Open sans';
+      font-family: "Open sans";
       font-weight: 400i;
     }
-    .form_part1{
+    .form_part1 {
       display: flex;
       flex-direction: row;
       padding: 2% 0% 11% 0%;
     }
-    .form_part2{
+    .form_part2 {
       display: flex;
       flex-direction: row;
       padding-bottom: 10%;
     }
-    #name{
+    #name {
       display: flex;
       flex-direction: column;
       padding: 0% 10% 0% 0%;
       width: 40%;
     }
-    #email{
+    #email {
       display: flex;
       flex-direction: column;
       padding: 0% 10% 0% 0%;
@@ -367,7 +363,7 @@ vertical-align: 47%;
       padding: 0% 10% 0% 0%;
       width: 40%;
     }
-    #number{
+    #number {
       display: flex;
       flex-direction: column;
       padding: 0% 10% 0% 0%;
@@ -404,63 +400,139 @@ footer {
     margin-right: auto;
     display: flex;
     justify-content: center;
+  }
 }
-  }
-  p {
-    font-family: "Open Sans";
-    font-size: "16px";
-    color: white;
-    text-align: center;
-  }
-  span {
-    font-family: "Open Sans";
-    font-weight: 700;
-    font-size: "16px";
-    color: white;
-  }
-  #about{
-    width: 30%;
-    
-  }
-  #opening{
-    width: 25%;
+p {
+  font-family: "Open Sans";
+  font-size: "16px";
+  color: white;
+  text-align: center;
+}
+span {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: "16px";
+  color: white;
+}
+#about {
+  width: 30%;
+}
+#opening {
+  width: 25%;
 
-.fa-cc-mastercard{
-  color: white;
-}
-.fa-cc-paypal{
-  color: white;
-}
-.fa-cc-visa{
-  color: white;
-}
-.fa-cc-discover{
-  color: white;
-}
-div{
-  display: flex;
-  justify-content: space-around;
-  padding: 11% 30% 0% 30%;
-}
+  .fa-cc-mastercard {
+    color: white;
   }
-  #location{
-    width: 25%;
+  .fa-cc-paypal {
+    color: white;
+  }
+  .fa-cc-visa {
+    color: white;
+  }
+  .fa-cc-discover {
+    color: white;
+  }
+  div {
+    display: flex;
+    justify-content: space-around;
+    padding: 11% 30% 0% 30%;
+  }
+}
+#location {
+  width: 25%;
+  div {
+    display: flex;
+    justify-content: space-around;
+    padding: 11% 30% 0% 30%;
+  }
+  .fa-facebook-f {
+    color: white;
+  }
+  .fa-youtube {
+    color: white;
+  }
+  .fa-twitter {
+    color: white;
+  }
+  .fa-poll {
+    color: white;
+  }
+}
+
+// ***************************************MEDIA QUERIES*********************************
+@media screen and (max-width: 1200px) {
+  // ***************************************HEADER*******************************************
+  header {
+    height: 600px;
+    .headernav{
+      nav{
+        font-size: 17px;
+      }
+    }
+    .txtandimg1 {
+      h1 {
+        font-size: 50px;
+        margin-top: 3%;
+      }
+      #containerhead{
+        width: 19%;
+      }
+    }
+    #boutonheader {
+      font-size: 15px;
+      #boutonbook {
+        margin-right: 1.5%;
+      }
+    }
+  }
+  // **************************************SECTION1********************************************
+
+.section1{
+height: 680px;
+
+.textleft {
+  padding: 0% 0% 0% 18%;
+h2 {
+  font-size: 26px;
+}
+p{
+  font-size:14px; 
+}
+#cook {
+  width: 272px;
+  height: 222px;
+}
+}
+#imgs1{
+  width: 304px;
+  height: 308px;
+  margin-right: 20%;
+}
+}
+// *******************************************SECTION2****************************************
+.section2{
+  height: 540px;
+  padding: 10% 9% 10% 44%;
+  margin-left: auto;
+  margin-right: auto;
+  #margins2{
     div{
-      display: flex;
-      justify-content: space-around;
-      padding: 11% 30% 0% 30%;
-    }
-    .fa-facebook-f{
-      color: white;
-    }
-.fa-youtube{
-  color: white;
-}
-.fa-twitter{
-  color: white;
-}
-.fa-poll{
-  color: white;
-}
+      svg{
+        width: 50%;
+      }
+  h2 {
+    font-size: 26px;
+    margin-bottom: 0;
   }
+  p{
+    font-size: 14px;
+  }
+  img{
+    width: 377px;
+    height: 103px;
+  }
+}
+}
+}
 
+}

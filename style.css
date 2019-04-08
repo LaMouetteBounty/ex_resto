@@ -443,7 +443,7 @@ header .headernav .fa-facebook-f {
   height: 100%;
   font-size: 90%;
   padding: 3% 3% 3% 4%;
-  font-family: 'Open sans';
+  font-family: "Open sans";
   font-weight: 400i;
 }
 
@@ -635,5 +635,68 @@ span {
 
 #location .fa-poll {
   color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  header {
+    height: 600px;
+  }
+  header .headernav nav {
+    font-size: 17px;
+  }
+  header .txtandimg1 h1 {
+    font-size: 50px;
+    margin-top: 3%;
+  }
+  header .txtandimg1 #containerhead {
+    width: 19%;
+  }
+  header #boutonheader {
+    font-size: 15px;
+  }
+  header #boutonheader #boutonbook {
+    margin-right: 1.5%;
+  }
+  .section1 {
+    height: 680px;
+  }
+  .section1 .textleft {
+    padding: 0% 0% 0% 18%;
+  }
+  .section1 .textleft h2 {
+    font-size: 26px;
+  }
+  .section1 .textleft p {
+    font-size: 14px;
+  }
+  .section1 .textleft #cook {
+    width: 272px;
+    height: 222px;
+  }
+  .section1 #imgs1 {
+    width: 304px;
+    height: 308px;
+    margin-right: 20%;
+  }
+  .section2 {
+    height: 540px;
+    padding: 10% 9% 10% 44%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section2 #margins2 div svg {
+    width: 50%;
+  }
+  .section2 #margins2 div h2 {
+    font-size: 26px;
+    margin-bottom: 0;
+  }
+  .section2 #margins2 div p {
+    font-size: 14px;
+  }
+  .section2 #margins2 div img {
+    width: 377px;
+    height: 103px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
