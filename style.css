@@ -1009,15 +1009,71 @@ span {
   .section2 {
     padding: 0% 0% 4% 0%;
   }
-}
-
-.section3 {
-  padding: 0% 0% 0% 0%;
-}
-
-.section3 div {
-  margin: 5% 0% 0% 0%;
-  padding: 0% 5% 0% 5%;
-  width: 70%;
+  .section3 {
+    padding: 0% 0% 0% 0%;
+  }
+  .section3 div {
+    margin: 5% 0% 0% 0%;
+    padding: 0% 5% 0% 5%;
+    width: 70%;
+  }
+  .section4 {
+    height: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section4 #bloc4 {
+    padding-top: 10%;
+  }
+  .section4 #bloc4 p {
+    padding: 0% 15% 0% 0%;
+  }
+  .section4 #bloc4 .formulaire {
+    padding: 0% 0% 0% 0%;
+  }
+  .section4 #bloc4 .form_part1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+  }
+  .section4 #bloc4 .form_part2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+  }
+  .section4 #bloc4 #name {
+    padding: 5% 0% 4% 25%;
+  }
+  .section4 #bloc4 #date {
+    padding: 0% 0% 4% 25%;
+  }
+  .section4 #bloc4 #email {
+    padding: 0% 0% 4% 25%;
+  }
+  .section4 #bloc4 #number {
+    padding: 0% 0% 10% 25%;
+  }
+  footer {
+    height: 220px;
+  }
+  #location div {
+    padding: 11% 17% 0% 12%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
