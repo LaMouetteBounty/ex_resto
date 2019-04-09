@@ -55,7 +55,7 @@ li {
   padding-right: 11%;
 }
 
-#header .headernav nav li:hover {
+#header .headernav nav a:hover {
   color: #cc9900;
 }
 
@@ -72,7 +72,7 @@ li {
   width: 78px;
   text-decoration: none;
   font-size: 18px;
-  font-family: 'Open sans';
+  font-family: "Open sans";
   font-weight: 700;
   color: white;
   border-radius: 0 5px 5px 0;
@@ -885,7 +885,7 @@ span {
     display: none;
     position: absolute;
     background-color: rgba(255, 255, 255, 0.7);
-    font-family: 'Open sans';
+    font-family: "Open sans";
     font-weight: 700;
     min-width: 127px;
     margin-top: 5%;
@@ -965,7 +965,7 @@ span {
     padding-bottom: 5%;
   }
   .section4 #bloc4 #blocdetext {
-    padding: 3% 8% 0% 16%;
+    padding: 3% 3% 0% 16%;
   }
 }
 
@@ -1033,12 +1033,10 @@ span {
   }
   .section4 #bloc4 p {
     margin: 0;
+    padding-right: 9%;
   }
   .section4 #bloc4 #containers4 {
     padding: 3% 10% 3% 0%;
-  }
-  .section4 #bloc4 #booknow {
-    margin: 0% 31% 0% 21%;
   }
   .section4 #bloc4 .form_part1 {
     padding-bottom: 5%;
@@ -1175,6 +1173,90 @@ span {
   }
   #location div {
     padding: 11% 17% 0% 12%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #header {
+    height: 450px;
+  }
+  #header .headernav #logo {
+    width: 124px;
+    height: 70px;
+  }
+  .txtandimg1 h1 {
+    padding: 4% 0% 5% 0%;
+    font-size: 15px;
+  }
+  #section1 {
+    height: 540px;
+  }
+  #section1 div {
+    height: 530px;
+  }
+  .section2 {
+    height: 460px;
+  }
+  .section2 #margins2 div {
+    height: 440px;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+  }
+  .section2 #margins2 div p {
+    font-size: 18px;
+  }
+  .section2 #margins2 div img {
+    padding: 5% 0% 0% 0%;
+  }
+  #section3 {
+    height: 450px;
+  }
+  #section3 div p {
+    font-size: 20px;
+    line-height: 180%;
+  }
+  .section4 {
+    height: 700px;
+  }
+  .section4 #bloc4 {
+    height: 600px;
+  }
+  .section4 #bloc4 h2 {
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 9% 0%;
+    overflow-y: hidden;
+  }
+  .section4 #bloc4 p {
+    padding-bottom: 23%;
+    overflow-y: hidden;
+  }
+  .section4 #bloc4 .formulaire {
+    overflow-y: hidden;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 32% 0%;
+  }
+  .section4 #bloc4 #booknow {
+    overflow-y: hidden;
+    padding: 4% 5% 6% 5%;
+  }
+  .section4 #containers4 {
+    margin: 0;
+    padding: 0% 10% 2% 0%;
+  }
+  footer {
+    height: 250px;
+  }
+  footer h3 {
+    padding-bottom: 19%;
+    padding-top: 16%;
+  }
+  footer svg {
+    display: none;
+  }
+  #opening div {
+    padding-top: 18%;
+    padding-left: 0%;
+    padding-right: 0%;
   }
 }
 /*# sourceMappingURL=style.css.map */

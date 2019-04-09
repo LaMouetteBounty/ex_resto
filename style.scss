@@ -42,7 +42,7 @@ li {
       padding-top: 5%;
       padding-left: 10%;
       padding-right: 11%;
-      li:hover {
+      a:hover {
         color: #cc9900;
       }
     }
@@ -51,30 +51,30 @@ li {
     }
 
     /* Style the links inside the sidenav */
-#mySidenav a {
-  position: fixed;
-  left: -63px;
-  transition: 0.3s;
-  padding: 10px;
-  width: 78px; 
-  text-decoration: none; 
-  font-size: 18px;
-  font-family: 'Open sans';
-  font-weight: 700;
-  color: white;
-  border-radius: 0 5px 5px 0;
-}
+    #mySidenav a {
+      position: fixed;
+      left: -63px;
+      transition: 0.3s;
+      padding: 10px;
+      width: 78px;
+      text-decoration: none;
+      font-size: 18px;
+      font-family: "Open sans";
+      font-weight: 700;
+      color: white;
+      border-radius: 0 5px 5px 0;
+    }
 
-#mySidenav a:hover {
-  left: 0; /* On mouse-over, make the elements appear as they should */
-}
+    #mySidenav a:hover {
+      left: 0; /* On mouse-over, make the elements appear as they should */
+    }
 
-/* The about link: 20px from the top */
-#hautpage {
-  // top: 20px;
-  bottom: 13px;
-  background-color: #cc9900;
-}
+    /* The about link: 20px from the top */
+    #hautpage {
+      // top: 20px;
+      bottom: 13px;
+      background-color: #cc9900;
+    }
 
     #logo {
       float: left;
@@ -705,44 +705,48 @@ span {
       nav {
         display: none;
       }
-.dropdown {
-  // display: inline-block;
-  /* float: right; */
-  display: flex;
-  /* display: inline-block; */
-  // position: static;
-  /* flex-direction: column; */
-  justify-content: flex-end;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: rgba(255, 255, 255, 0.7);
-  font-family: 'Open sans';
-  font-weight: 700; 
-  min-width: 127px;
-  margin-top: 5%;
-  z-index: 1;
-}
+      .dropdown {
+        // display: inline-block;
+        /* float: right; */
+        display: flex;
+        /* display: inline-block; */
+        // position: static;
+        /* flex-direction: column; */
+        justify-content: flex-end;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.7);
+        font-family: "Open sans";
+        font-weight: 700;
+        min-width: 127px;
+        margin-top: 5%;
+        z-index: 1;
+      }
 
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+      /* Links inside the dropdown */
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
 
-}
+      /* Change color of dropdown links on hover */
+      .dropdown-content a:hover {
+        background-color: #cc9900;
+      }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #cc9900;}
+      /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: black;}
-
+      /* Change the background color of the dropdown button when the dropdown content is shown */
+      .dropdown:hover .dropbtn {
+        background-color: black;
+      }
 
       #reseau {
         display: none;
@@ -814,7 +818,7 @@ span {
         padding-bottom: 5%;
       }
       #blocdetext {
-        padding: 3% 8% 0% 16%;
+        padding: 3% 3% 0% 16%;
       }
     }
   }
@@ -888,12 +892,10 @@ span {
       }
       p {
         margin: 0;
+        padding-right: 9%;
       }
       #containers4 {
         padding: 3% 10% 3% 0%;
-      }
-      #booknow {
-        margin: 0% 31% 0% 21%;
       }
       .form_part1 {
         padding-bottom: 5%;
@@ -1028,6 +1030,109 @@ span {
   #location {
     div {
       padding: 11% 17% 0% 12%;
+    }
+  }
+}
+// ****************************************MIN320px*******************************************
+@media only screen and (max-width: 400px) {
+  // ************************************HEADER***********************************************
+  #header {
+    height: 450px;
+    .headernav {
+      #logo {
+        width: 124px;
+        height: 70px;
+      }
+    }
+  }
+  .txtandimg1 {
+    h1 {
+      padding: 4% 0% 5% 0%;
+      font-size: 15px;
+    }
+  }
+  // ***************************************SECTION1****************************************************
+  #section1 {
+    height: 540px;
+    div{
+      height: 530px;
+    }
+  }
+
+  //***************************************SECTION2*********************************************
+  .section2 {
+    height: 460px;
+    #margins2 {
+      
+      div {
+        height: 440px;
+        margin: 0% 0% 0% 0%;
+        padding: 0% 0% 0% 0%;
+        p{
+          font-size: 18px;
+        }
+        img{
+          padding: 5% 0% 0% 0%;
+        }
+      }
+    }
+  }
+  // **************************************SECTION3********************************************
+  #section3 {
+    height: 450px;
+    div{
+      p{
+        font-size: 20px;
+        line-height: 180%;
+      }
+    }
+  }
+  // ************************************SECTION4***********************************************
+  .section4 {
+    height: 700px;
+    #bloc4 {
+      height: 600px;
+      h2 {
+        margin: 0% 0% 0% 0%;
+        padding: 0% 0% 9% 0%;
+        overflow-y: hidden;
+      }
+      p {
+        padding-bottom: 23%;
+        overflow-y: hidden;
+      }
+      .formulaire {
+        overflow-y: hidden;
+        margin: 0% 0% 0% 0%;
+        padding: 0% 0% 32% 0%;
+      }
+      #booknow {
+        overflow-y: hidden;
+        padding: 4% 5% 6% 5%;
+      }
+    }
+    #containers4 {
+      margin: 0;
+      padding: 0% 10% 2% 0%;
+    }
+  }
+  // ****************************************FOOTER******************************************
+  footer {
+    height: 250px;
+    h3 {
+      padding-bottom: 19%;
+      padding-top: 16%;
+    }
+
+    svg {
+      display: none;
+    }
+  }
+  #opening {
+    div {
+      padding-top: 18%;
+      padding-left: 0%;
+      padding-right: 0%;
     }
   }
 }
