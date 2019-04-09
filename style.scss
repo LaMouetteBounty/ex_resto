@@ -49,8 +49,8 @@ li {
     .dropdown {
       display: none;
     }
-
-    /* Style the links inside the sidenav */
+    // *********************************SIDENAV**************************************
+    /* style and link inside */
     #mySidenav a {
       position: fixed;
       left: -63px;
@@ -66,16 +66,16 @@ li {
     }
 
     #mySidenav a:hover {
-      left: 0; /* On mouse-over, make the elements appear as they should */
+      left: 0;
     }
 
-    /* The about link: 20px from the top */
+    /* placement du bouton*/
     #hautpage {
       // top: 20px;
       bottom: 13px;
       background-color: #cc9900;
     }
-
+    // *********************************end SIDENAV**************************************
     #logo {
       float: left;
       margin-top: 2%;
@@ -159,7 +159,7 @@ li {
     color: black;
   }
 }
-// **************************SECTION1***************************************//
+// **************************************SECTION1***************************************//
 #section1 {
   background-image: url(img/background_s1.jpg);
   margin: 0;
@@ -184,7 +184,7 @@ li {
       font-size: 36px;
       color: #cc9900;
       text-align: center;
-      margin-bottom: 4%;
+      padding-bottom: 4%;
     }
     p {
       font-family: "Lato";
@@ -208,7 +208,7 @@ li {
     margin: 0;
   }
 }
-// ****************************SECTION2******************************************//
+// ****************************************SECTION2******************************************//
 .section2 {
   background-image: url(img/background_s2.jpg);
   margin: 0;
@@ -256,7 +256,7 @@ li {
   }
 }
 
-// **************************************SECTION3*********************************//
+// *****************************************SECTION3*********************************************//
 
 #section3 {
   background-image: url(img/background_s3.jpg);
@@ -292,6 +292,7 @@ li {
     p {
       font-family: "Gentium Book Basic";
       font-weight: 700;
+      line-height: 190%;
       font-size: 25px;
       color: white;
       text-align: center;
@@ -312,7 +313,7 @@ li {
   }
 }
 
-// ********************************SECTION4***********************************//
+// ********************************************SECTION4*******************************************//
 .section4 {
   background-image: url(img/background_s1.jpg);
   margin: 0;
@@ -425,9 +426,13 @@ li {
       padding: 1.5% 0% 1.5% 0%;
       text-align: center;
     }
+    #booknow:hover {
+      background-color: rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+    }
   }
 }
-// ************************FOOTER***********************//
+// *******************************************FOOTER*****************************************//
 footer {
   background-color: #191919;
   height: 320px;
@@ -705,6 +710,7 @@ span {
       nav {
         display: none;
       }
+      // ****************************DROPDOWN********************
       .dropdown {
         // display: inline-block;
         /* float: right; */
@@ -747,7 +753,7 @@ span {
       .dropdown:hover .dropbtn {
         background-color: black;
       }
-
+      // ****************************FIN DROPDOWN********************
       #reseau {
         display: none;
       }
@@ -780,7 +786,6 @@ span {
       div {
         img {
           width: 347px;
-          // height: 63px;
         }
       }
     }
@@ -1054,7 +1059,7 @@ span {
   // ***************************************SECTION1****************************************************
   #section1 {
     height: 540px;
-    div{
+    div {
       height: 530px;
     }
   }
@@ -1063,15 +1068,14 @@ span {
   .section2 {
     height: 460px;
     #margins2 {
-      
       div {
         height: 440px;
         margin: 0% 0% 0% 0%;
         padding: 0% 0% 0% 0%;
-        p{
+        p {
           font-size: 18px;
         }
-        img{
+        img {
           padding: 5% 0% 0% 0%;
         }
       }
@@ -1079,9 +1083,12 @@ span {
   }
   // **************************************SECTION3********************************************
   #section3 {
-    height: 450px;
-    div{
-      p{
+    height: 500px;
+    div {
+      margin: 0;
+      padding: 7% 5% 7% 5%;
+      width: 100%;
+      p {
         font-size: 20px;
         line-height: 180%;
       }
@@ -1136,3 +1143,5 @@ span {
     }
   }
 }
+
+// ****************************************FINIIIII*************************************
