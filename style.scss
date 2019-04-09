@@ -19,7 +19,7 @@ li {
 }
 
 // **********************HEADER***********************//
-header {
+#header {
   margin: 0;
   padding: 0;
   height: 750px;
@@ -42,34 +42,52 @@ header {
       padding-top: 5%;
       padding-left: 10%;
       padding-right: 11%;
+      li:hover {
+        color: #cc9900;
+      }
     }
     .burger {
+      display: none;
+    }
+    .burgernav {
       display: none;
     }
     #logo {
       float: left;
       margin-top: 2%;
     }
-    #reseau {
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-end;
-      color: white;
-      margin-right: 2%;
-    }
+    // #reseau {
+    //   display: flex;
+    //   flex-direction: row;
+    //   justify-content: flex-end;
+    //   color: white;
+    // }
     .fa-twitter {
       color: #cc9900;
-      margin: 0% 50% 0% 0%;
-      padding-left: 70%;
+      padding: 0% 0% 0% 0%;
+      margin: 0% 0% 0% 200%;
+    }
+    .fa-twitter:hover {
+      color: white;
+      cursor: pointer;
     }
     .fa-youtube {
       color: #cc9900;
-      padding-left: 70%;
-      margin: 0% 50% 0% 0%;
+      padding: 0% 0% 0% 0%;
+      margin: 0% 0% 0% 80%;
+    }
+    .fa-youtube:hover {
+      color: white;
+      cursor: pointer;
     }
     .fa-facebook-f {
       color: #cc9900;
-      padding-left: 90%;
+      padding: 0% 0% 0% 0%;
+      margin: 0% 0% 0% 0%;
+    }
+    .fa-facebook-f:hover {
+      color: white;
+      cursor: pointer;
     }
   }
 }
@@ -116,7 +134,7 @@ header {
   }
 }
 // **************************SECTION1***************************************//
-.section1 {
+#section1 {
   background-image: url(img/background_s1.jpg);
   margin: 0;
   padding: 0;
@@ -214,7 +232,7 @@ header {
 
 // **************************************SECTION3*********************************//
 
-.section3 {
+#section3 {
   background-image: url(img/background_s3.jpg);
   margin: 0;
   padding: 0;
@@ -463,10 +481,10 @@ span {
 }
 
 // ***************************************MEDIA QUERIES*********************************
-// *******************************************1200px************************************
-@media screen and (max-width: 1200px) {
+// *******************************************1400px************************************
+@media screen and (max-width: 1400px) {
   // ***************************************HEADER*******************************************
-  header {
+  #header {
     height: 500px;
     .headernav {
       nav {
@@ -491,7 +509,7 @@ span {
   }
   // **************************************SECTION1********************************************
 
-  .section1 {
+  #section1 {
     height: 550px;
 
     .textleft {
@@ -537,7 +555,7 @@ span {
     }
   }
   // ********************************************SECTION3**************************************
-  .section3 {
+  #section3 {
     height: 600px;
     div {
       padding: 0% 5% 0% 5%;
@@ -631,10 +649,10 @@ span {
   }
 }
 
-// **********************************************992px*********************************************
-@media screen and (max-width: 992px) {
+// **********************************************1200px*********************************************
+@media screen and (max-width: 1200px) {
   // ******************************************HEADER**************************************************
-  header {
+  #header {
     height: 450px;
     .headernav {
       nav {
@@ -644,9 +662,15 @@ span {
         display: flex;
         justify-content: flex-end;
         padding: 5% 0% 0% 0%;
+        z-index: 1;
         img:hover {
           background-color: black;
         }
+        // .burgernav{
+        //   clear: both;
+        //   display: block;
+        //   list-style-type: none;
+        // }
       }
       #reseau {
         display: none;
@@ -659,7 +683,7 @@ span {
     }
   }
   // ******************************************SECTION1******************************************
-  .section1 {
+  #section1 {
     height: 450px;
     padding: 6% 22% 10% 22%;
     .textleft {
@@ -686,7 +710,7 @@ span {
     }
   }
   // *******************************************SECTION3*****************************************
-  .section3 {
+  #section3 {
     padding-top: 2%;
     height: 520px;
     div {
@@ -726,7 +750,7 @@ span {
 // ***********************************768px***************************************
 @media screen and (max-width: 768px) {
   // ***********************************HEADER**************************************
-  header {
+  #header {
     #boutonheader {
       font-size: 13px;
     }
@@ -767,7 +791,7 @@ span {
     }
   }
   // ********************************SECTION3************************************
-  .section3 {
+  #section3 {
     padding-top: 2%;
     height: 480px;
     div {
@@ -811,7 +835,7 @@ span {
     }
   }
   // ***************************************FOOTER************************************
-  footer{
+  footer {
     height: 180px;
     padding: 3% 4% 0% 4%;
   }
@@ -828,65 +852,64 @@ span {
 }
 // ********************************************600px************************************
 @media screen and (max-width: 600px) {
-// *******************************************HEADER*************************************
-header{
-  height: 450px;
-  .marginhead{
-    margin: 0% 3% 0% 3%;
+  // *******************************************HEADER*************************************
+  #header {
+    height: 450px;
+    .marginhead {
+      margin: 0% 3% 0% 3%;
+    }
   }
-}
-.txtandimg1{
-  h1 {
-    margin: 12% 0% 10% 0%;
-  padding: 0% 0% 0% 0%;
+  .txtandimg1 {
+    h1 {
+      margin: 12% 0% 10% 0%;
+      padding: 0% 0% 0% 0%;
+    }
+    #containerhead {
+      display: none;
+    }
   }
-#containerhead{
-display: none;
-}
-}
-#boutonheader{
-  
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0% 0% 0% 0%;
+  #boutonheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0% 0% 0% 0%;
     padding: 0% 30% 0% 30%;
-    #boutonbook{
+    #boutonbook {
       font-size: 15px;
       text-align: center;
       padding: 10% 10% 10% 10%;
       margin-bottom: 10%;
     }
-    #boutonmenu{
+    #boutonmenu {
       font-size: 15px;
       text-align: center;
       padding: 10% 10% 10% 10%;
     }
-}
-// ****************************SECTION1**********************
-.section1{
-  height: 420px;
-  padding: 6% 0% 10% 0%;
-  .textleft{
-  p{
-    font-size: 15.6px;
   }
-}
-}
-// *****************************SECTION2******************************
-.section2{
-  padding: 0% 0% 4% 0%;
-}
+  // ****************************SECTION1**********************
+  #section1 {
+    height: 420px;
+    padding: 6% 0% 10% 0%;
+    .textleft {
+      p {
+        font-size: 15.6px;
+      }
+    }
+  }
+  // *****************************SECTION2******************************
+  .section2 {
+    padding: 0% 0% 4% 0%;
+  }
 
-// *****************************SECTION3*****************************
-.section3{
-  padding: 0% 0% 0% 0%;
-  div{
-    margin: 5% 0% 0% 0%;
-    padding: 0% 5% 0% 5%;
-    width: 70%;
+  // *****************************SECTION3*****************************
+  #section3 {
+    padding: 0% 0% 0% 0%;
+    div {
+      margin: 5% 0% 0% 0%;
+      padding: 0% 5% 0% 5%;
+      width: 70%;
+    }
   }
-}
   // ***************************SECTION4*******************************
   .section4 {
     height: 600px;
@@ -897,9 +920,9 @@ display: none;
       p {
         padding: 0% 15% 0% 0%;
       }
-     .formulaire{
-       padding: 0% 0% 0% 0%;
-     }
+      .formulaire {
+        padding: 0% 0% 0% 0%;
+      }
       .form_part1 {
         display: flex;
         flex-direction: column;
@@ -912,27 +935,27 @@ display: none;
         margin: 0% 0% 0% 0%;
         padding: 0% 0% 0% 0%;
       }
-      #name{
+      #name {
         padding: 5% 0% 4% 25%;
       }
-      #date{
+      #date {
         padding: 0% 0% 4% 25%;
       }
-      #email{
+      #email {
         padding: 0% 0% 4% 25%;
       }
-      #number{
+      #number {
         padding: 0% 0% 10% 25%;
       }
     }
   }
-    // ***************************FOOTER************************
-footer{
-  height: 220px;
-}
-#location{
-div{
-  padding: 11% 17% 0% 12%;;
-} 
-}
+  // ***************************FOOTER************************
+  footer {
+    height: 220px;
+  }
+  #location {
+    div {
+      padding: 11% 17% 0% 12%;
+    }
+  }
 }
