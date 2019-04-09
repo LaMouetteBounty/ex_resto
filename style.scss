@@ -49,20 +49,38 @@ li {
     .dropdown {
       display: none;
     }
-    // .burgernav {
-    //   display: none;
-    // }
+
+    /* Style the links inside the sidenav */
+#mySidenav a {
+  position: fixed;
+  left: -63px;
+  transition: 0.3s;
+  padding: 10px;
+  width: 78px; 
+  text-decoration: none; 
+  font-size: 18px;
+  font-family: 'Open sans';
+  font-weight: 700;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top */
+#hautpage {
+  // top: 20px;
+  bottom: 13px;
+  background-color: #cc9900;
+}
 
     #logo {
       float: left;
       margin-top: 2%;
     }
-    // #reseau {
-    //   display: flex;
-    //   flex-direction: row;
-    //   justify-content: flex-end;
-    //   color: white;
-    // }
+
     .fa-twitter {
       color: #cc9900;
       padding: 0% 0% 0% 0%;
