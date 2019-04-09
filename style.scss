@@ -46,12 +46,13 @@ li {
         color: #cc9900;
       }
     }
-    .burger {
+    .dropdown {
       display: none;
     }
-    .burgernav {
-      display: none;
-    }
+    // .burgernav {
+    //   display: none;
+    // }
+
     #logo {
       float: left;
       margin-top: 2%;
@@ -126,11 +127,18 @@ li {
     border-color: black;
     margin-right: 2%;
   }
+  #boutonbook:hover {
+    background-color: black;
+  }
   #boutonmenu {
     background-color: rgba(255, 255, 255, 0.3);
     padding: 1% 2% 1% 2%;
     border: solid 1px;
     border-color: white;
+  }
+  #boutonmenu:hover {
+    background-color: white;
+    color: black;
   }
 }
 // **************************SECTION1***************************************//
@@ -147,7 +155,7 @@ li {
     margin-right: 10%;
     display: flex;
     justify-content: center;
-    padding-top: 4%;
+    padding-top: 1%;
   }
   .textleft {
     display: flex;
@@ -305,7 +313,7 @@ li {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding: 0% 17% 0% 17%;
+      padding: 0% 0% 0% 7%;
     }
     h2 {
       font-family: "Yeseva One";
@@ -478,6 +486,22 @@ span {
   .fa-poll {
     color: white;
   }
+  .fa-facebook-f:hover {
+    color: #cc9900;
+    cursor: pointer;
+  }
+  .fa-youtube:hover {
+    color: #cc9900;
+    cursor: pointer;
+  }
+  .fa-twitter:hover {
+    color: #cc9900;
+    cursor: pointer;
+  }
+  .fa-poll:hover {
+    color: #cc9900;
+    cursor: pointer;
+  }
 }
 
 // ***************************************MEDIA QUERIES*********************************
@@ -580,6 +604,10 @@ span {
   .section4 {
     height: 600px;
     #bloc4 {
+      padding: 5% 10% 0% 4%;
+      #containers4 {
+        padding: 2% 0% 0% 0%;
+      }
       #images4 {
         width: 30%;
         img {
@@ -588,15 +616,16 @@ span {
         }
       }
       #blocdetext {
-        padding: 0% 12% 0% 19%;
+        padding: 0% 0% 0% 13%;
       }
       h2 {
         font-size: 26px;
-        padding: 0% 11% 0% 0%;
+        padding: 0;
       }
       p {
         font-size: 14px;
-        padding: 0% 11% 0% 0%;
+        padding-top: 2%;
+        margin: 0;
       }
     }
   }
@@ -658,20 +687,45 @@ span {
       nav {
         display: none;
       }
-      .burger {
-        display: flex;
-        justify-content: flex-end;
-        padding: 5% 0% 0% 0%;
-        z-index: 1;
-        img:hover {
-          background-color: black;
-        }
-        // .burgernav{
-        //   clear: both;
-        //   display: block;
-        //   list-style-type: none;
-        // }
-      }
+.dropdown {
+  // display: inline-block;
+  /* float: right; */
+  display: flex;
+  /* display: inline-block; */
+  // position: static;
+  /* flex-direction: column; */
+  justify-content: flex-end;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: 'Open sans';
+  font-weight: 700; 
+  min-width: 127px;
+  margin-top: 5%;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #cc9900;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: black;}
+
+
       #reseau {
         display: none;
       }
